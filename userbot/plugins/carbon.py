@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.b (the "License");
 # you may not use this file except in compliance with the License.
 #
-# Fixed and made better by @anubisxx
+# Fixed and made better by @Sunil
 """ Userbot module containing various scrapers. """
 import os
 import shutil
@@ -99,7 +99,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="<< `Here's your carbon!` \n **Carbonised by** [@anubisxx.](https://github.com/Dark-Princ3/X-tra-Telegram)>>\n**Colour Scheme: **`{}`".format(color_name),
+         caption="<< `Here's your carbon!` \n **Carbonised by** [Sunil.](https://t.me/ss_sunil78)>>\n**Colour Scheme: **`{}`".format(color_name),
          force_document=True,
          reply_to=e.message.reply_to_msg_id,
          )
